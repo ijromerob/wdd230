@@ -1,0 +1,61 @@
+/* https://coolors.co/00120b-35605a-354e5a-d8e4ff */
+
+/* Black                 00120b */
+/* greenish gray         35605a */
+/* bluish gray           6b818c */
+/* lavender (light blue) d8e4ff */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    background-color: #354e5a;
+    font-family: 'Manrope', Verdana;
+}
+
+header {
+    background-color: #00120b;
+    color: #d8e4ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    align-items: center;
+}
+
+img {
+
+    height: auto;
+    max-width: 20%;
+}
+
+nav {
+    background-color: #35605a;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #35605a;
+}
+
+
+
+a {
+    color: White;
+}
+
+main {
+    color: white;
+}
+
+h1,
+h2 {
+    color: #d8e4ff;
+}
+
+.card {
+    background-color: rgba(red, green, blue, 100);
+}
