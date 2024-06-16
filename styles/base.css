@@ -1,39 +1,47 @@
-/* https://coolors.co/00120b-35605a-354e5a-d8e4ff */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Black                 00120b */
 /* greenish gray         35605a */
 /* bluish gray           6b818c */
 /* lavender (light blue) d8e4ff */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
 body {
     background-color: #354e5a;
     font-family: 'Manrope', Verdana;
+    font-weight: 800;
 }
 
 header {
     background-color: #00120b;
     color: #d8e4ff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
+    display: flex;
     align-items: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
+
 
 img {
 
     height: auto;
-    max-width: 20%;
+    max-width: 9em;
+    margin-right: 10px;
+
 }
 
-nav {
+nav a {
     background-color: #35605a;
     padding: 1rem;
     text-align: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    display: block;
 }
 
 nav a:hover {
@@ -41,21 +49,43 @@ nav a:hover {
     color: #35605a;
 }
 
-
+.card {
+    background-color: white;
+    color: #00120b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    margin: 5px;
+    border: 1px solid #00120b;
+    border-radius: 3%;
+}
 
 a {
     color: White;
+    text-decoration: none;
 }
 
 main {
     color: white;
+    display: grid;
+    grid-template-rows: 1/2fr 1fr 1fr;
+    grid-gap: 1rem;
 }
 
-h1,
-h2 {
+
+
+h1 {
     color: #d8e4ff;
+    font-weight: 200;
 }
 
-.card {
-    background-color: rgba(red, green, blue, 100);
+h2 {
+    color: #00120b;
+
+}
+
+footer {
+    background-color: #00120b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
