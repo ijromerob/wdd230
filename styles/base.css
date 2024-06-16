@@ -89,3 +89,11 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+ul>li>a {
+    color: black;
+}
+
+ul>li>a:hover {
+    color: #35605a;
+}
