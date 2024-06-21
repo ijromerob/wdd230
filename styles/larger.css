@@ -7,6 +7,14 @@
         flex-grow: 1;
     }
 
+    .navigation a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
     nav a {
         flex-grow: 1;
         width: 100%;
