@@ -1,0 +1,83 @@
+body {
+    font-family: 'poppins', verdana, Tahoma;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Bebas Neue';
+}
+
+:root {
+    --primary-color: #b20101;
+    --secondary-color: #273e47;
+    --accent1-color: #D8973C;
+    --accent2-color: white;
+
+    --navigation-and-footer: var(--primary-color);
+    --nav-text-color: var(--accent2-color);
+    --text-body-color: var(--secondary-color);
+
+    --hover-nav-text: var(--primary-color);
+    --hover-nav-bg: var(--accent2-color);
+
+}
+
+.navigation {
+    text-align: center;
+    background-color: var(--navigation-and-footer);
+    color: var(--nav-text-color);
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    vertical-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    background-color: var(--navigation-and-footer);
+    color: var(--nav-text-color);
+}
+
+nav a:hover {
+    color: var(--hover-nav-text);
+    background-color: var(--hover-nav-bg);
+}
+
+#logo-box:hover {
+    background-color: var(--primary-color);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
