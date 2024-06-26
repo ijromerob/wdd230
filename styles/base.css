@@ -146,3 +146,14 @@ ul>li>a {
 ul>li>a:hover {
     color: var(--hover-txt-card);
 }
+
+
+
+.hero picture {
+    width: 100%;
+}
+
+.hero picture img {
+    width: 100%;
+    height: auto;
+}

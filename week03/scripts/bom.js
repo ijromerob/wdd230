@@ -15,7 +15,6 @@ button.addEventListener('click', () => {
 })
 
 
-
 let chaptersArray = getChapterList() || [];
 
 chaptersArray.forEach(chapter => {
