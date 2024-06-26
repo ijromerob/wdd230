@@ -57,7 +57,7 @@ header {
 }
 
 
-img {
+#profile-picture {
 
     height: auto;
     max-width: 9em;
@@ -148,6 +148,9 @@ ul>li>a:hover {
 }
 
 
+.hero {
+    position: relative;
+}
 
 .hero picture {
     width: 100%;
@@ -156,4 +159,10 @@ ul>li>a:hover {
 .hero picture img {
     width: 100%;
     height: auto;
+}
+
+.hero-label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
