@@ -7,6 +7,10 @@
         flex-grow: 1;
     }
 
+    .hero-label {
+        font-size: 2rem;
+    }
+
     .navigation a {
         display: block;
     }

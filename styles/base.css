@@ -118,6 +118,7 @@ main {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
     grid-gap: 1rem;
+    margin-bottom: 15px;
 }
 
 
@@ -141,6 +142,7 @@ footer {
 
 ul>li>a {
     color: var(--text-over-white);
+    margin: 5px;
 }
 
 ul>li>a:hover {
@@ -159,10 +161,25 @@ ul>li>a:hover {
 .hero picture img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .hero-label {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5%;
+}
+
+.map {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 75%;
 }

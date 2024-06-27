@@ -36,3 +36,31 @@ darkModeButton.addEventListener('click', () => {
         darkModeButton.setAttribute('src', 'images/dark-mode-icon.svg');
     }
 })
+
+//visits to the page
+const visits = document.querySelector('.visits')
+
+let visitsNumber = getVisits() || 0;
+
+if (visitsNumber == 0) {
+    visitsNumber = 1;
+    setVisits();
+    displayVisit();
+}
+else {
+    visitsNumber++;
+    setVisits();
+    displayVisit();
+}
+
+function setVisits() {
+    localStorage.setItem('visits', JSON.stringify(visitsNumber));
+}
+
+function displayVisit() {
+    visits.textContent = visitsNumber;
+}
+
+function getVisits() {
+    return Number(localStorage.getItem('visits'));
+}
