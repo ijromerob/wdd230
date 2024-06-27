@@ -130,3 +130,20 @@ nav a:hover {
     width: 150px;
     height: auto;
 }
+
+.discovery-main {
+    display: block;
+}
+
+.calgary-image-discovery {
+    width: 100%;
+    height: auto;
+}
+
+.calgary-images {
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+}
