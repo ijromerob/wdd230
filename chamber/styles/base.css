@@ -147,3 +147,8 @@ nav a:hover {
 .title {
     text-align: center;
 }
+
+.side-info {
+    border: 1px solid rgb(185, 185, 185);
+    margin: 10px;
+}
