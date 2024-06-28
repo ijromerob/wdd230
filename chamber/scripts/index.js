@@ -24,7 +24,7 @@ let date = getDate() || 0;
 
 if (date !== 0) {
     let oldDate = new Date(date)
-    let dif = (Date.now() - oldDate.getTime()) / (1000 * 60 * 60 * 24) + 1; // difference in days
+    let dif = (Date.now() - oldDate.getTime()) / (1000 * 60 * 60 * 24); // difference in days
     if (dif < 1) {
         txt.textContent = 'Back so soon! Awesome!';
         date = Date.now();

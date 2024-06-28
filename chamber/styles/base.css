@@ -107,6 +107,13 @@ footer {
     padding: 5px;
 }
 
+
+
+nav a.active {
+    color: var(--hover-nav-text);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 nav a:hover {
     color: var(--hover-nav-text);
     background-color: var(--hover-nav-bg);
@@ -138,6 +145,7 @@ nav a:hover {
 .calgary-image-discovery {
     width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 .calgary-images {
