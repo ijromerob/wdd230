@@ -92,6 +92,9 @@
         grid-row: 1/7;
     }
 
+    .calgary-images p {
+        font-size: 1.5rem;
+    }
 
     .side-bar {
         border: 1px solid rgb(185, 185, 185);
@@ -99,5 +102,9 @@
         margin-top: 15px;
         margin-right: 5px;
         margin-bottom: 20px;
+    }
+
+    .calgary-image-discovery:hover {
+        transform: scaleX(-1);
     }
 }

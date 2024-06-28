@@ -142,6 +142,15 @@ nav a:hover {
 
 .calgary-images {
     margin: 20px;
+    position: relative;
+}
+
+.calgary-images p {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
 }
 
 .title {
