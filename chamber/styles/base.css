@@ -161,8 +161,8 @@ nav a:hover {
     padding: 5px;
 }
 
-.title {
-    text-align: center;
+.title-box {
+    width: 100%;
 }
 
 .side-info {
