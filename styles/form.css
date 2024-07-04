@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+.active {
+    background-color: rgba(225, 225, 225, 0.2);
+}
+
 label {
     display: block;
     margin-top: 1rem;
@@ -44,6 +48,15 @@ input[type="submit"] {
 
 nav a {
     text-decoration: none;
+    color: white;
+}
+
+nav ul :hover {
+    background-color: white;
+
+    a {
+        color: #35605a;
+    }
 }
 
 nav,
@@ -59,7 +72,8 @@ nav ul {
 nav ul li {
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    margin-left: -40px;
 }
 
 footer {
