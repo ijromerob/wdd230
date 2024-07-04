@@ -18,4 +18,8 @@
     .header-container {
         display: none;
     }
+
+    .navigation {
+        margin: -16px;
+    }
 }
