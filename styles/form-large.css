@@ -6,9 +6,9 @@
     }
 
     nav ul li {
-        padding: 2%;
         font-size: 1.25em;
         display: block;
+        padding: 20px;
     }
 
     #menu {
@@ -20,6 +20,12 @@
     }
 
     .navigation {
-        margin: -16px;
+        margin: 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 20px;
+        display: inline;
     }
 }

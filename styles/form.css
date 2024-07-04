@@ -59,13 +59,12 @@ nav a {
     color: var(--text-over-color);
 }
 
-nav ul :hover {
+nav ul li a:hover {
     background-color: var(--secondary-color);
-
-    a {
-        color: var(--main-color);
-    }
+    color: var(--main-color);
 }
+
+
 
 nav,
 footer {
@@ -80,9 +79,15 @@ nav ul {
 nav ul li {
     display: block;
     text-align: center;
-    padding: 10px;
-    margin-left: -40px;
+    margin-left: -35px;
     display: none;
+    width: 100%;
+}
+
+nav ul li a {
+    width: 100%;
+    padding: 18px;
+    display: block;
 }
 
 footer {
@@ -100,7 +105,7 @@ footer {
     flex: 1 1 auto;
 }
 
-#rangelabel {
+.range-container {
     position: relative;
 }
 
