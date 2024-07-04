@@ -1,0 +1,78 @@
+body {
+    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    display: block;
+    padding: 9px;
+    border-radius: 5px;
+    height: 25px;
+    width: 90%;
+    max-width: 300px;
+}
+
+fieldset {
+    margin: 2%;
+    border-radius: 7px;
+}
+
+input[type="submit"] {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 0.8rem;
+    height: auto;
+    width: 96%;
+}
+
+.wf1 input[name="password"]:valid {
+    background-color: rgb(185, 225, 185);
+}
+
+.wf1 input[name="password"]:invalid {
+    background-color: rgb(225, 194, 185);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav,
+footer {
+    background-color: #35605a;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    padding: 1%;
+}
+
+#rangevalues {
+    display: flex;
+    width: 90%;
+    max-width: 326px;
+    margin: 0 0 0 10px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
