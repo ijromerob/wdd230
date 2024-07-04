@@ -8,5 +8,12 @@
     nav ul li {
         padding: 2%;
         font-size: 1.25em;
+        display: block;
     }
+
+    #menu {
+        display: none;
+    }
+
+
 }
