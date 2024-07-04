@@ -134,7 +134,7 @@ footer {
 #menu {
     position: absolute;
     right: 30px;
-    top: 0;
+    top: -23px;
     border: none;
     background-color: var(--main-color);
     border-radius: 3px;
@@ -146,4 +146,11 @@ footer {
 
 p {
     text-align: center;
+}
+
+.header-container {
+    background-color: var(--main-color);
+    padding: 25px;
+    width: 100%;
+    margin-bottom: -16px;
 }
