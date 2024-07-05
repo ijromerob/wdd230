@@ -29,10 +29,7 @@ function convertToLocal(date) {
 
 const timestamp = document.querySelector('#timestamp');
 const submit = document.querySelector('#reg');
+const datenow = new Date();
+timestamp.value = convertToLocal(datenow);
 
-
-submit.addEventListener('click', () => {
-    const datenow = new Date();
-    timestamp.value = convertToLocal(datenow);
-})
 

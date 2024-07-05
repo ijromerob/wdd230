@@ -114,10 +114,13 @@
         transform: scaleX(-1);
     }
 
+    /* Form web page ------------------- */
+
     #join-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 15fr;
+        margin: 20px;
     }
 
     #join-content>h1 {
