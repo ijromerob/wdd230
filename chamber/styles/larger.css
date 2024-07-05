@@ -21,7 +21,7 @@
 
     }
 
-    main {
+    #home-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -112,5 +112,27 @@
 
     .calgary-image-discovery:hover {
         transform: scaleX(-1);
+    }
+
+    #join-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 15fr;
+    }
+
+    #join-content>h1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+
+    }
+
+    #membership-description {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    form {
+        grid-column: 1/2;
+        grid-row: 2/3;
     }
 }

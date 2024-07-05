@@ -169,3 +169,104 @@ nav a:hover {
     border: 1px solid rgb(185, 185, 185);
     margin: 10px;
 }
+
+/* Form wepage --------------------- */
+
+.memberships {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 25px;
+    text-align: left;
+}
+
+.memberships>h3 {
+    text-align: center;
+}
+
+.initial {
+    font-weight: bold;
+}
+
+#np-m {
+    background-color: rgb(147, 199, 147);
+}
+
+#bronze-m {
+    background-color: #d89f70;
+}
+
+#silver-m {
+    background-color: rgb(199, 199, 199);
+}
+
+#gold-m {
+    background-color: rgb(236, 236, 153);
+}
+
+li {
+    margin: 15px;
+}
+
+form {
+    text-align: left;
+    margin: 15px;
+}
+
+label {
+    display: block;
+    margin: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+    display: block;
+    width: 85%;
+    border: none;
+    background-color: rgb(240, 235, 235);
+    border-radius: 5px;
+}
+
+#description {
+    width: 90%;
+}
+
+input {
+    padding: 10px;
+}
+
+fieldset {
+    border-radius: 5px;
+    margin: 15px;
+}
+
+#membership {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+input[type='submit'] {
+    margin-left: 50px;
+    border: none;
+    background-image: linear-gradient(var(--accent1-color), rgb(255, 255, 0));
+    width: 10em;
+    cursor: pointer;
+}
+
+input:required {
+    border-left: 5px solid red;
+}
+
+input:required:valid {
+    border-left: 5px solid rgb(1, 163, 1);
+}
+
+#position:invalid {
+    background-color: #f78b8b;
+}
+
+input[type='radio'] {
+    margin-right: 6px;
+}
