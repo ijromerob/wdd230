@@ -1,0 +1,62 @@
+{
+    "new families": [
+        {
+            "family name": "Lopez",
+            "date move in": "2024-07-02",
+            "people in family": "3",
+            "visited by bishopric": "true",
+            "family members": [
+                {
+                    "fname": "Andres",
+                    "lname": "Lopez",
+                    "dob": "1985-05-03",
+                    "gender": "M"
+                },
+                {
+                    "fname": "Patricia",
+                    "lname": "Chinchilla",
+                    "dob": "1988-03-02",
+                    "gender": "F"
+                },
+                {
+                    "fname": "Etan",
+                    "lname": "Lopez",
+                    "dob": "2010-07-08",
+                    "gender": "M"
+                }
+            ]
+        },
+        {
+            "family name": "Sinay",
+            "date move in": "2024-12-24",
+            "people in family": "4",
+            "visited by bishopric": "false",
+            "family members": [
+                {
+                    "fname": "Leon",
+                    "lname": "Sinay",
+                    "dob": "1990-02-01",
+                    "gender": "M"
+                },
+                {
+                    "fname": "Francisca",
+                    "lname": "Cojulum",
+                    "dob": "1992-07-08",
+                    "gender": "F"
+                },
+                {
+                    "fname": "Abelina",
+                    "lname": "Sinay",
+                    "dob": "2023-04-23",
+                    "gender": "F"
+                },
+                {
+                    "fname": "Ester",
+                    "lname": "Sinay",
+                    "dob": "2024-01-15",
+                    "gender": "F"
+                }
+            ]
+        }
+    ]
+}
