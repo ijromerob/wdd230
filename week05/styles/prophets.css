@@ -1,16 +1,35 @@
 body {
     font-family: 'poppins', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: #ecede0;
+
 }
 
 h1 {
     font-family: 'Dancing Script';
+    font-size: 2.5em;
 }
 
 h2 {
     font-family: 'Bona Nova SC';
 }
 
+
 section {
-    border: 1px solid black
+    /* border: 1px solid black; */
+    border: none;
+    width: 100%;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #eaedca;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 20px;
 }
