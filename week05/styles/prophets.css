@@ -1,0 +1,16 @@
+body {
+    font-family: 'poppins', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+}
+
+h2 {
+    font-family: 'Bona Nova SC';
+}
+
+section {
+    border: 1px solid black
+}
