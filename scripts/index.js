@@ -64,3 +64,33 @@ function displayVisit() {
 function getVisits() {
     return Number(localStorage.getItem('visits'));
 }
+
+// adding weather card
+
+const currentWeather = document.querySelector('#current-weather');
+const weatherIcon = document.querySelector('#weather-icon');
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=51.045763653662505&lon=-114.07200932666383&appid=2838e61f6d31a85f3212a3c686b49e64&units=imperial';
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url)
+        if (response.ok) {
+            const data = await response.json();
+            displayResults(data);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+apiFetch();
+
+function displayResults({ main: { temp }, weather: [{ description, icon }] }) {
+    currentWeather.innerHTML = `${temp}&deg;F - ${description}`;
+    weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${icon}.png`);
+    weatherIcon.setAttribute('alt', description);
+
+}
