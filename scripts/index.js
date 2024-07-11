@@ -68,6 +68,7 @@ function getVisits() {
 // adding weather card
 
 const currentWeather = document.querySelector('#current-weather');
+const currentTemperature = document.querySelector('#temperature')
 const weatherIcon = document.querySelector('#weather-icon');
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=51.045763653662505&lon=-114.07200932666383&appid=2838e61f6d31a85f3212a3c686b49e64&units=imperial';
 
@@ -89,8 +90,10 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults({ main: { temp }, weather: [{ description, icon }] }) {
-    currentWeather.innerHTML = `${temp}&deg;F - ${description}`;
+    currentWeather.innerHTML = `${description}`;
     weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${icon}.png`);
     weatherIcon.setAttribute('alt', description);
+    currentTemperature.innerHTML = `${temp}&deg;F`
 
 }
+
