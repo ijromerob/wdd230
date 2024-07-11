@@ -18,9 +18,6 @@ function displayLinks({ weeks }) {
         listElement.innerText = `${week}: `;
         links.forEach(({ url, title }) => {
             const linkElement = document.createElement('a');
-            // if (url.substring(0, 4) !== 'http') {
-            //     url = baseURL + url;
-            // }
             linkElement.setAttribute('href', url);
             linkElement.innerText = `${title} | `;
             listElement.appendChild(linkElement);
