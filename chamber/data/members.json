@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "WestJet Airlines",
+            "address": "22 Aerial Place NE, Calgary, AB T2E 3J1",
+            "phone": "(403) 444-2600",
+            "url": "https://www.westjet.com",
+            "imgFile": "westjet_logo.png",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "name": "Suncor Energy",
+            "address": "150 6 Ave SW, Calgary, AB T2P 3E3",
+            "phone": "(403) 296-8000",
+            "url": "https://www.suncor.com",
+            "imgFile": "suncor_logo.png",
+            "membershipLevel": "Silver Membership"
+        },
+        {
+            "name": "TransCanada Corporation",
+            "address": "450 1 St SW, Calgary, AB T2P 5H1",
+            "phone": "(403) 920-2000",
+            "url": "https://www.tcenergy.com",
+            "imgFile": "transcanada_logo.png",
+            "membershipLevel": "Bronze Membership"
+        },
+        {
+            "name": "Calgary Food Bank",
+            "address": "5000 11 St SE, Calgary, AB T2H 2Y5",
+            "phone": "(403) 253-2055",
+            "url": "https://www.calgaryfoodbank.com",
+            "imgFile": "calgaryfoodbank_logo.png",
+            "membershipLevel": "NP Membership"
+        },
+        {
+            "name": "ATCO Group",
+            "address": "5302 Forand St SW, Calgary, AB T3E 8B4",
+            "phone": "(403) 292-7500",
+            "url": "https://www.atco.com",
+            "imgFile": "atco_logo.png",
+            "membershipLevel": "Silver Membership"
+        },
+        {
+            "name": "Encana Corporation",
+            "address": "500 Centre St S, Calgary, AB T2G 1A6",
+            "phone": "(403) 645-2000",
+            "url": "https://www.encana.com",
+            "imgFile": "encana_logo.png",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "name": "Alberta Children's Hospital Foundation",
+            "address": "28 Oki Dr NW, Calgary, AB T3B 6A8",
+            "phone": "(403) 955-8818",
+            "url": "https://www.childrenshospital.ab.ca",
+            "imgFile": "achf_logo.png",
+            "membershipLevel": "NP Membership"
+        }
+    ]
+}
