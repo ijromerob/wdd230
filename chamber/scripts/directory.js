@@ -1,5 +1,5 @@
 const companiesUrl = "https://ijromerob.github.io/wdd230/chamber/data/members.json";
-const mainElement = document.querySelector('#home-content');
+const mainElement = document.querySelector('#companies');
 
 async function GetCompanies() {
     const response = await fetch(companiesUrl);
@@ -42,3 +42,34 @@ function DisplayMembers({ companies }) {
 
 
 GetCompanies();
+
+//buttons
+const gridbutton = document.querySelector('#grid');
+const listbutton = document.querySelector('#list');
+
+
+gridbutton.addEventListener('click', () => {
+    mainElement.classList.add('grid');
+    mainElement.classList.remove('list');
+});
+
+listbutton.addEventListener('click', () => {
+    mainElement.classList.add('list');
+    mainElement.classList.remove('grid');
+});
+
+
+// hamburguer button
+const hButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hButton.classList.toggle('open');
+})
+
+//get date for the website
+document.getElementById('year').textContent = new Date().getFullYear();
+
+document.getElementById('lastmodified').textContent = `Last modified: ${document.lastModified}`;
+
