@@ -75,6 +75,12 @@ main {
     width: 100%;
 }
 
+.event {
+    margin: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
 button {
     background-color: var(--accent1-color);
     padding: 1rem;
