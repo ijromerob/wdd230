@@ -285,21 +285,24 @@ input[type='radio'] {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-
-
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    margin: 20px;
+    grid-gap: 15px;
+    margin: 15px;
 }
 
-.grid section {
+.grid .company-card {
     border: 1px solid black;
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    margin: auto;
+}
+
+.grid .company-card>* {
+    margin: 10px;
 }
 
 .list {
@@ -308,17 +311,17 @@ input[type='radio'] {
     margin: 20px;
 }
 
-.list section {
+.list div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-bottom: 1px solid rgb(218, 218, 218);
 }
 
-.list section img {
+.list div img {
     display: none;
 }
 
-.list section>* {
+.list div>* {
     margin-top: auto;
     margin-bottom: auto;
     padding: 10px;
@@ -379,31 +382,23 @@ section:nth-child(1) {
     margin: 20px;
 }
 
-#event-banner[open] {
-    translate: 0 0;
-}
+
 
 #event-banner {
-    transition: translate 0.7s ease-out, overlay 0.7s ease-out allow-discrete, display 0.7s ease-out allow-discrete;
-    translate: 0 100vh;
-
     text-align: center;
     font-size: 1.5rem;
     padding: 50px;
     border: 10px solid var(--primary-color);
+    position: relative;
 }
 
-@starting-style {
-    #event-banner[open] {
-        translate: 0 100vh;
-    }
-}
 
 #banner-exit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
     background-color: white;
     border: 10px solid var(--primary-color);
     border-radius: 30%;
     font-size: 1rem;
-    margin-right: 0;
-
 }

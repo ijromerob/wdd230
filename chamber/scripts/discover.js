@@ -22,3 +22,28 @@ else {
     date = Date.now();
     setDate(date);
 }
+
+//get date for the website
+document.getElementById('year').textContent = new Date().getFullYear();
+
+document.getElementById('lastmodified').textContent = `Last modified: ${document.lastModified}`;
+
+
+//hamburguer button
+
+const hbutton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hbutton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hbutton.classList.toggle('open');
+});
+
+
+function getDate() {
+    return Number(JSON.parse(localStorage.getItem('visit-date')));
+}
+
+function setDate(item) {
+    localStorage.setItem('visit-date', JSON.stringify(item));
+}

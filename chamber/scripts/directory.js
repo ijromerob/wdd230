@@ -11,7 +11,7 @@ async function GetCompanies() {
 
 function DisplayMembers({ companies }) {
     companies.forEach(({ name, address, phone, url, imgFile, membershipLevel }) => {
-        const section = document.createElement('section');
+        const section = document.createElement('div');
         const companyImage = document.createElement('img');
         const companyName = document.createElement('h3');
         const companyAddress = document.createElement('p');
@@ -19,6 +19,7 @@ function DisplayMembers({ companies }) {
         const companyWebSite = document.createElement('a');
         const companyMembership = document.createElement('p');
 
+        section.setAttribute('class', 'company-card')
         companyName.innerText = name;
         companyImage.setAttribute('src', "images/" + imgFile);
         companyImage.setAttribute('alt', name + " logo");
