@@ -23,6 +23,7 @@ function DisplayMembers({ companies }) {
         companyName.innerText = name;
         companyImage.setAttribute('src', "images/" + imgFile);
         companyImage.setAttribute('alt', name + " logo");
+        companyImage.setAttribute('class', 'companies-imgs');
         companyAddress.innerText = address;
         companyPhone.innerText = phone;
         companyWebSite.innerText = "Company Website";
