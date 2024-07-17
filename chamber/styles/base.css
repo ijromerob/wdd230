@@ -359,3 +359,51 @@ input[type='radio'] {
 #right-button {
     margin-left: -15px;
 }
+
+.company-ad>* {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}
+
+.company-ad {
+    margin-top: 50px;
+}
+
+
+.image-box {
+    margin: auto;
+}
+
+section:nth-child(1) {
+    margin: 20px;
+}
+
+#event-banner[open] {
+    translate: 0 0;
+}
+
+#event-banner {
+    transition: translate 0.7s ease-out, overlay 0.7s ease-out allow-discrete, display 0.7s ease-out allow-discrete;
+    translate: 0 100vh;
+
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px;
+    border: 10px solid var(--primary-color);
+}
+
+@starting-style {
+    #event-banner[open] {
+        translate: 0 100vh;
+    }
+}
+
+#banner-exit {
+    background-color: white;
+    border: 10px solid var(--primary-color);
+    border-radius: 30%;
+    font-size: 1rem;
+    margin-right: 0;
+
+}
