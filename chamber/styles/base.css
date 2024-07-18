@@ -339,6 +339,10 @@ input[type='radio'] {
 
 /* Current Weather and weather forecast */
 
+#weather {
+    margin-top: 20px;
+}
+
 .miniWeatherCard {
     border: 1px solid black;
     width: 25%;
@@ -373,6 +377,10 @@ input[type='radio'] {
     margin-left: -15px;
 }
 
+#forecast-container {
+    margin-bottom: 50px;
+}
+
 .company-ad>* {
     margin-top: auto;
     margin-bottom: auto;
@@ -381,6 +389,7 @@ input[type='radio'] {
 
 .company-ad {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
